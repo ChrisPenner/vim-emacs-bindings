@@ -1,19 +1,19 @@
 " Basic cursor movement and deletion keybindings from emacs, for vim.
 
 " insert mode
-imap <C-b> <Left>
-imap <C-f> <Right>
+" imap <C-b> <Left>
+" imap <C-f> <Right>
 imap <C-a> <C-o>:call <SID>home()<CR>
 imap <C-e> <End>
-imap <C-d> <Del>
-imap <C-h> <BS>
+" imap <C-d> <Del>
+" imap <C-h> <BS>
 imap <C-k> <C-r>=<SID>kill_line()<CR>
 
 " command line mode
 cmap <C-p> <Up>
 cmap <C-n> <Down>
-cmap <C-b> <Left>
-cmap <C-f> <Right>
+" cmap <C-b> <Left>
+" cmap <C-f> <Right>
 cmap <C-a> <Home>
 cmap <C-e> <End>
 cnoremap <C-d> <Del>
