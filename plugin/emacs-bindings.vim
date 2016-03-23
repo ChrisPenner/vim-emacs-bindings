@@ -16,15 +16,9 @@ cmap <C-n> <Down>
 " cmap <C-f> <Right>
 cmap <C-a> <Home>
 cmap <C-e> <End>
-cnoremap <C-d> <Del>
-cnoremap <C-h> <BS>
+" cnoremap <C-d> <Del>
+" cnoremap <C-h> <BS>
 cnoremap <C-k> <C-f>D<C-c><C-c>:<Up>
-
-" command-T window
-let g:CommandTCursorLeftMap  = ['<Left>',  '<C-b>']
-let g:CommandTCursorRightMap = ['<Right>', '<C-f>']
-let g:CommandTBackspaceMap   = ['<BS>',    '<C-h>']
-let g:CommandTDeleteMap      = ['<Del>',   '<C-d>']
 
 function! s:home()
   let start_col = col('.')
